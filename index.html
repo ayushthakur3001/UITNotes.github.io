@@ -7,6 +7,7 @@
     <title>University Institute of Technology </title>
     <link rel="stylesheet" href="site.css">
     <link rel="stylesheet" href="quote.css">
+    <link rel="stylesheet" href="bubble.css">
 </head>
 <body>
     
@@ -20,9 +21,9 @@
             <img src="logo1.png" alt="">
             
         </div>
-        <div class="logo2">
+        <!-- <div class="logo2">
             <img src="logo2.png" alt="">
-        </div>
+        </div> -->
     </div>
 
 
@@ -41,15 +42,19 @@
 
 
     <div class="main">
+        <section>
+            
+        </section>
         <h2 class="Notesh2">Notes</h2>
         <div class="notesImg">
             <img src="notes.png" alt="">
         </div>
-    
+        <a href="notes.html">
         <div class="notes">
             
             <p>Get the Section wise Notes Provided by teachers at one place.</p>
         </div>
+    </a>
         <h2 class="pyqh2">PYQ</h2>
         <div class="pyqImg">
             <img src="pyq.png" alt="">
@@ -82,6 +87,28 @@
         <input class="submit" type="submit">
     </div>
     <script src="quote1.js" type="text/javascript"></script>
+    
+    <script type="text/javascript">
+    function createBubble(){
+        const section = document.querySelector('section')
+        const createElement = document.createElement('span')
+        var size = Math.random() * 60;
+
+        createElement.style.width = 50 + size + 'px';
+        createElement.style.height = 50 + size + 'px';
+        createElement.style.left = Math.random() * innerWidth + "px";
+        section.appendChild(createElement);
+        setTimeout(() =>{
+            createElement.remove()
+
+        },4000)
+    }
+    setInterval(createBubble, 500);
+        
+    
+        
+    
+    </script>
 
     
 </body>

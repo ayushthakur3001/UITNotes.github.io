@@ -26,7 +26,7 @@
 h1{
     color: white;
     font-weight: 3000;
-    text-shadow: 2px 2px 5px;
+    text-shadow: black 3px 2px 5px;
     
 }
 
@@ -43,23 +43,22 @@ h2{
     top: 10%;
 }
 .logo1 img{
-    width: 120px;
-    height: 120px;
+    width: 160px;
+    height: 150px;
     position: absolute;
-    left: 10%;
-    top: 2%;
+    left: 4%;
+    top: 1%;
 }
-.logo2 img{
+/* .logo2 img{
     width: 115px;
     height: 115px;
     position: absolute;
     right: 8%;
     top: 2%;
-}
+} */
 
 .main{
     background-color: #12232E;
-    
     border-radius: 10px;
     width: 80%;
     height: 450px;
@@ -83,7 +82,7 @@ h2{
 }
 .main::after{
     background: linear-gradient(#2196f3 , #e91e63);
-    clip-path: circle(20% at 10% 10%);
+    clip-path: circle(15% at 5% 10%);
     position: absolute;
     content: '';
     top: 0;

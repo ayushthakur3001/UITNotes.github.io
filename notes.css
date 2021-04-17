@@ -1,0 +1,124 @@
+*{
+    
+    background-color: #12232E;
+    position: absolute;
+    width: 100%;
+    height: 98%;
+    
+}
+h1{
+
+    color: white;
+    text-shadow: orange 3px 2px 5px;
+}
+.c1{
+    top: 25%;
+    left: 7%;
+}
+.c2{
+    top: 25%;
+    
+    left: 50%;
+
+}
+.c3{
+    top: 60%;
+    
+    left: 7%;
+}
+.c4{
+    top: 60%;
+    left: 50%;
+    
+
+}
+.c1 , .c2 ,.c3,  .c4{
+    background-color: #12232E;
+    width: 10%;
+    height: 10%;
+    color: white;
+    transition: transform .5s;
+    position: absolute;
+
+}
+.c1 a, .c2 a, .c3 a , .c4 a{
+    text-decoration-color: orange;
+    text-shadow: white 3px 2px 5px;
+    position: absolute;
+    font-weight: 50000;
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    text-shadow: 1px 1px 5px white;
+    width: 90px;
+    height: 70px;
+    left: 10%;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    justify-content: center;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+}
+.c1:hover, .c2:hover, .c3:hover, .c4:hover{
+    transform:scale(1.2) ;
+}
+
+
+
+
+.box1Notes, .box2Notes, .box3Notes,.box4Notes{
+    width: 37%;;
+    height: 30%;
+    font-size: small;
+    border-radius: 3px;
+
+}
+.box1Notes{
+    left: 7%;
+    top: 30%;
+    
+    
+}
+.box2Notes{
+    left: 30%;
+    top: 30%;
+    
+}
+.box3Notes{
+    left: 53%;
+    top: 30%;
+    
+}
+.box4Notes{
+    left: 76%;
+    top: 30%;
+   
+}
+
+.box1Notes, .box2Notes , .box3Notes, .box4Notes{
+    flex-direction: column;
+    width: 250px;
+    height: 300px;
+    transition:transform .7s;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    color: black;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+    position: absolute;
+}
+.box1Notes:hover, .box2Notes:hover , .box3Notes:hover , .box4Notes:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    
+}
